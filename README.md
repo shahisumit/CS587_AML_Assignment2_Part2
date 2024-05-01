@@ -1,6 +1,6 @@
 Part 2 of Assignment 2 for CS 587 - Adversarial Machine Learning course, taught by Alexandar Vakanski in Spring 2024 at the University of Idaho - Department of Computer Science.
 
-The objective of this assignment is to create a substitute model for celebrity recognition, and transfer adversarial samples to a corresponding model hosted by Clarifai. This is a black-box attack, because we don’t have access to the model hosted by Clarifai.
+The objective of this assignment is to create a substitute model for celebrity recognition, and transfer adversarial samples to a corresponding model hosted by Clarifai ( https://clarifai.com/clarifai/main/models/celebrity-face-recognition ). This is a black-box attack, because we don’t have access to the model hosted by Clarifai.
 
 We utilized a dataset comprising celebrity faces, extracted from a larger dataset known as LFW ( Labeled Faces in the Wild: https://vis-www.cs.umass.edu/lfw/ ). These images were sourced from the internet and annotated with individuals' names. Specifically for this assignment, our dataset encompassed 5,113 images featuring 62 different celebrities, with each image focusing solely on the cropped face of the individual from the original pictures.
 
